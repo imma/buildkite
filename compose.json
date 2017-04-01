@@ -27,7 +27,7 @@
           "ipv4_address": "${NET_PREFIX}.17"
         }
       },
-      "dns_search": "dc1.node.consul",
+      "dns_search": "node.dc1.consul",
       "image": "${BLOCK_REGISTRY}/block:buildkite",
       "hostname": "buildkite"
     }
